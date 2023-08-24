@@ -1,0 +1,552 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bggrey"
+    android:orientation="vertical">
+
+
+    <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+        android:id="@+id/swipeToRefresh"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:id="@+id/rl_loc"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="@color/purple_200"
+                    android:orientation="horizontal"
+                    android:paddingLeft="10dp"
+
+
+                    android:paddingRight="10dp">
+
+                    <ImageView
+                        android:layout_width="22dp"
+                        android:layout_height="22dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/location"></ImageView>
+
+                    <TextView
+                        android:id="@+id/tvlocation"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginRight="15dp"
+                        android:layout_weight="1"
+                        android:fontFamily="@font/nunitosans_semibold"
+                        android:gravity="center_vertical"
+                        android:singleLine="true"
+                        android:text="My Location"
+                        android:textColor="@color/white"
+
+
+                        android:textSize="14dp">
+
+                    </TextView>
+
+
+                </LinearLayout>
+
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+
+                    android:layout_height="wrap_content">
+
+
+                    <RelativeLayout
+                        android:id="@+id/r_location"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginRight="15dp"
+
+                        android:background="@drawable/btnbgwhitestock"
+                        android:padding="5dp">
+
+
+                        <ImageView
+                            android:id="@+id/im_loc"
+
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:layout_alignParentLeft="true"
+                            android:layout_centerInParent="true"
+                            android:layout_marginLeft="15dp"
+                            android:layout_marginRight="15dp"
+                            android:padding="7dp"
+                            android:src="@drawable/location"
+                            app:tint="@color/red" />
+
+
+                        <EditText
+                            android:id="@+id/mSearchBoxView"
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:layout_marginLeft="5dp"
+                            android:layout_toLeftOf="@+id/im_search"
+
+                            android:layout_toRightOf="@+id/im_loc"
+                            android:layout_weight="1"
+                            android:background="@android:color/transparent"
+                            android:elevation="5dp"
+                            android:ems="1"
+                            android:focusable="false"
+                            android:hint="Search Property"
+                            android:imeOptions="actionSearch"
+                            android:inputType="text"
+                            android:lines="1"
+                            android:maxEms="1"
+                            android:maxLines="1"
+                            android:minLines="1"
+                            android:padding="5dp"
+                            android:paddingLeft="10dp"
+                            android:paddingTop="3dp"
+                            android:paddingBottom="3dp"
+                            android:singleLine="true"
+                            android:textColor="@color/black"
+
+                            android:textSize="14dp" />
+
+                        <ImageView
+                            android:id="@+id/im_search"
+
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:layout_alignParentRight="true"
+                            android:layout_centerInParent="true"
+                            android:layout_marginLeft="15dp"
+                            android:layout_marginRight="15dp"
+                            android:padding="7dp"
+                            android:src="@drawable/searchiv"
+                            app:tint="@color/lightblack" />
+
+
+                    </RelativeLayout>
+
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="180dp"
+                    android:layout_margin="15dp">
+
+
+                    <com.example.otpregisterloginhome.OtherUtils.AutoSwitcherViewPager
+                        android:id="@+id/autoSwitcherViewPager"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent" />
+
+                    <me.relex.circleindicator.CircleIndicator
+                        android:id="@+id/indicator"
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:layout_alignParentBottom="true"
+                        app:ci_animator="@anim/indicator_animator"
+                        app:ci_animator_reverse="@anim/indicator_animator_reverse"
+                        app:ci_drawable="@drawable/white_radius_square"
+                        app:ci_height="4dp"
+                        app:ci_margin="6dp"
+                        app:ci_width="10dp" />
+
+
+                </RelativeLayout>
+
+
+                <RelativeLayout
+                    android:id="@+id/re_post"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginBottom="7dp"
+                    android:background="@drawable/btnbgseccolor"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/tv_toppost"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+
+                            android:layout_alignParentRight="true"
+                            android:layout_alignParentBottom="true"
+                            android:layout_gravity="bottom"
+                            android:layout_marginLeft="15dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginRight="15dp"
+
+
+                            android:fontFamily="@font/nunitosans_bold"
+                            android:gravity="center"
+
+                            android:text="mHome exclusive"
+                            android:textColor="@color/black"
+                            android:textSize="18dp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:layout_alignParentBottom="true"
+                            android:layout_gravity="bottom"
+                            android:layout_marginLeft="15dp"
+                            android:layout_marginTop="2dp"
+                            android:layout_marginRight="15dp"
+                            android:layout_marginBottom="10dp"
+                            android:fontFamily="@font/nunitosans_regular"
+                            android:gravity="center"
+                            android:text="List it on mHome and get genuine leads."
+                            android:textColor="@color/textgrey"
+                            android:textSize="14dp" />
+
+                        <TextView
+                            android:id="@+id/tv_post"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+
+                            android:layout_alignParentBottom="true"
+                            android:layout_gravity="right"
+                            android:layout_marginRight="15dp"
+                            android:layout_marginBottom="20dp"
+                            android:background="@drawable/btnbg"
+
+                            android:fontFamily="@font/nunitosans_bold"
+                            android:gravity="right"
+                            android:paddingLeft="10dp"
+                            android:paddingTop="10dp"
+                            android:paddingRight="10dp"
+                            android:paddingBottom="10dp"
+                            android:text="Post Property"
+
+                            android:textColor="@color/white"
+                            android:textSize="14dp" />
+                    </LinearLayout>
+
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="15dp">
+
+
+                    <LinearLayout
+                        android:id="@+id/im_p_property"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/btnbglightcolor"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+
+                            android:layout_alignParentRight="true"
+                            android:layout_alignParentBottom="true"
+                            android:layout_gravity="bottom"
+                            android:layout_marginLeft="15dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginRight="15dp"
+
+
+                            android:fontFamily="@font/nunitosans_bold"
+                            android:gravity="center"
+
+                            android:text="Posted Property"
+                            android:textColor="@color/black"
+                            android:textSize="18dp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:layout_alignParentBottom="true"
+                            android:layout_gravity="bottom"
+                            android:layout_marginLeft="15dp"
+                            android:layout_marginTop="2dp"
+                            android:layout_marginRight="15dp"
+                            android:layout_marginBottom="10dp"
+                            android:fontFamily="@font/nunitosans_regular"
+                            android:gravity="left"
+                            android:text="see your Posted Property on \nmhome."
+                            android:textColor="@color/textgrey"
+                            android:textSize="14dp" />
+
+                        <TextView
+                            android:id="@+id/tv_post"
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+
+                            android:layout_alignParentBottom="true"
+                            android:layout_gravity="left|center"
+                            android:layout_marginLeft="15dp"
+                            android:layout_marginBottom="20dp"
+                            android:background="@drawable/btnbg"
+
+                            android:fontFamily="@font/nunitosans_bold"
+                            android:gravity="center"
+                            android:paddingLeft="10dp"
+                            android:paddingTop="10dp"
+                            android:paddingRight="10dp"
+                            android:paddingBottom="10dp"
+                            android:text="View"
+
+                            android:textColor="@color/white"
+                            android:textSize="14dp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerInParent="true"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginEnd="10dp"
+                        android:layout_marginRight="15dp"
+                        android:layout_marginBottom="5dp"
+                        android:background="@drawable/btnbgwhite"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/tv_numberproperty"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+
+                            android:layout_alignParentRight="true"
+                            android:layout_alignParentBottom="true"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="5dp"
+
+
+                            android:fontFamily="@font/nunitosans_semibold"
+                            android:gravity="center"
+
+                            android:text="3"
+                            android:textColor="@color/black"
+                            android:textSize="45dp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+
+                            android:layout_alignParentRight="true"
+                            android:layout_alignParentBottom="true"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginBottom="10dp"
+
+                            android:fontFamily="@font/nunitosans_bold"
+                            android:gravity="center"
+
+
+                            android:paddingLeft="5dp"
+                            android:paddingRight="5dp"
+
+                            android:text="Property"
+                            android:textColor="@color/black"
+                            android:textSize="12dp" />
+                    </LinearLayout>
+
+                </RelativeLayout>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_gravity="bottom"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="15dp"
+
+
+                    android:fontFamily="@font/nunitosans_bold"
+                    android:gravity="center"
+
+                    android:text="mHome exclusive"
+                    android:textColor="@color/black"
+                    android:textSize="18dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_gravity="bottom"
+                    android:layout_marginLeft="15dp"
+
+                    android:layout_marginRight="15dp"
+                    android:layout_marginBottom="10dp"
+
+
+                    android:fontFamily="@font/nunitosans_semibold"
+                    android:gravity="center"
+
+                    android:text="Advertise Property"
+                    android:textColor="@color/black"
+                    android:textSize="16dp" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="180dp"
+                    android:layout_margin="15dp">
+
+
+                    <com.example.otpregisterloginhome.OtherUtils.AutoSwitcherViewPager
+                        android:id="@+id/autoSwitcherViewPager1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent" />
+
+                    <me.relex.circleindicator.CircleIndicator
+                        android:id="@+id/indicator1"
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:layout_alignParentBottom="true"
+                        app:ci_animator="@anim/indicator_animator"
+                        app:ci_animator_reverse="@anim/indicator_animator_reverse"
+                        app:ci_drawable="@drawable/white_radius_square"
+                        app:ci_height="4dp"
+                        app:ci_margin="6dp"
+                        app:ci_width="10dp" />
+
+
+                </RelativeLayout>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_gravity="bottom"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginBottom="10dp"
+
+
+                    android:fontFamily="@font/nunitosans_bold"
+                    android:gravity="center"
+
+                    android:text="Property Post Package"
+                    android:textColor="@color/black"
+                    android:textSize="18dp" />
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/re_package"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="7dp"
+                    android:layout_marginRight="15dp">
+
+                </androidx.recyclerview.widget.RecyclerView>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+
+
+                        android:layout_alignParentBottom="true"
+                        android:layout_gravity="bottom"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginRight="15dp"
+
+
+                        android:fontFamily="@font/nunitosans_bold"
+                        android:gravity="center"
+
+                        android:text="Advocate"
+                        android:textColor="@color/black"
+                        android:textSize="18dp" />
+
+                    <TextView
+                        android:id="@+id/tv_alladvocate"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentBottom="true"
+                        android:layout_gravity="bottom"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginRight="15dp"
+
+
+                        android:fontFamily="@font/nunitosans_bold"
+                        android:gravity="center"
+
+                        android:text="View all"
+                        android:textColor="@color/black"
+                        android:textSize="18dp" />
+                </RelativeLayout>
+
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/re_advocate"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="15dp">
+
+                </androidx.recyclerview.widget.RecyclerView>
+
+                <ImageView
+                    android:id="@+id/im_contact"
+                    android:layout_width="wrap_content"
+                    android:layout_height="170dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginBottom="10dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/promote_property"></ImageView>
+
+
+            </LinearLayout>
+        </androidx.core.widget.NestedScrollView>
+
+
+    </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+
+
+    <include layout="@layout/loaderlayout" />
+
+</RelativeLayout>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bggrey"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/bggrey"
+        android:orientation="vertical">
+
+
+        <include layout="@layout/toolbarlayout" />
+
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/texttv"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="15dp"
+                android:fontFamily="@font/nunitosans_regular"
+                android:lineSpacingExtra="3dp"
+                android:text=""
+                android:textColor="@color/textgrey"
+                android:textSize="14dp" />
+        </androidx.core.widget.NestedScrollView>
+
+
+    </LinearLayout>
+
+
+
+
+
+    <include layout="@layout/nointernetscreen" />
+
+
+
+</RelativeLayout>

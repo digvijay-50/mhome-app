@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_above="@+id/tv_proceed"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <include layout="@layout/toolbarlayout"/>
+            <include layout="@layout/loaderlayout"/>
+
+            <androidx.core.widget.NestedScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+                    <TextView
+                        android:id="@+id/tv_top1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginRight="15dp"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginBottom="5dp"
+                        android:fontFamily="@font/nunitosans_bold"
+                        android:gravity="left"
+                        android:text="Add Basic Details"
+                        android:textColor="@color/black"
+                        android:textSize="18dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginRight="15dp"
+
+                        android:fontFamily="@font/nunitosans_regular"
+                        android:gravity="left"
+                        android:text="Title, Property Description and Upload Images"
+                        android:textColor="@color/black"
+                        android:textSize="14dp" />
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="55dp"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginTop="15dp"
+                        android:layout_marginRight="15dp"
+                        android:layout_marginBottom="1dp"
+                        android:background="@drawable/whitebtnbg"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal">
+
+
+                        <EditText
+                            android:id="@+id/et_title"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="15dp"
+                            android:background="#00000000"
+                            android:fontFamily="@font/nunitosans_semibold"
+                            android:hint="Title"
+                            android:inputType="text"
+                            android:singleLine="true"
+                            android:textColor="@color/textgrey"
+                            android:textColorHint="@color/textlightgrey"
+                            android:textSize="16sp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="110dp"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginTop="15dp"
+                        android:layout_marginRight="15dp"
+                        android:layout_marginBottom="1dp"
+                        android:background="@drawable/whitebtnbg"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal">
+
+
+                        <EditText
+                            android:id="@+id/et_des"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="15dp"
+                            android:background="#00000000"
+                            android:fontFamily="@font/nunitosans_semibold"
+                            android:hint="Description"
+                            android:inputType="textMultiLine"
+                            android:singleLine="true"
+                            android:textColor="@color/textgrey"
+                            android:textColorHint="@color/textlightgrey"
+                            android:textSize="16sp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="110dp"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginTop="15dp"
+                        android:layout_marginRight="15dp"
+                        android:layout_marginBottom="1dp"
+                        android:background="@drawable/whitebtnbg"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal">
+
+
+                        <TextView
+
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="15dp"
+                            android:background="#00000000"
+                            android:fontFamily="@font/nunitosans_semibold"
+                            android:text="Upload Thumbnail Image :"
+
+                            android:singleLine="true"
+                            android:textColor="@color/textgrey"
+                            android:textColorHint="@color/textlightgrey"
+                            android:textSize="16sp" />
+                        <ImageView
+                            android:id="@+id/im_thumb"
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:layout_margin="5dp"
+                            android:src="@drawable/add_image"></ImageView>
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_above="@+id/tv_edit"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginTop="15dp"
+                        android:layout_marginRight="15dp"
+                        android:layout_marginBottom="1dp"
+                        android:background="@drawable/whitebtnbg"
+                        android:orientation="vertical">
+
+                        <TextView
+
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="15dp"
+                            android:layout_marginTop="10dp"
+                            android:background="#00000000"
+                            android:fontFamily="@font/nunitosans_semibold"
+                            android:text="Upload Property Images :"
+
+                            android:singleLine="true"
+                            android:textColor="@color/textgrey"
+                            android:textColorHint="@color/textlightgrey"
+                            android:textSize="16sp" />
+
+                        <LinearLayout
+                            android:layout_marginTop="5dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+                            <ImageView
+                                android:id="@+id/im_add"
+                                android:layout_width="85dp"
+                                android:layout_height="85dp"
+                                android:padding="3dp"
+                                android:layout_margin="5dp"
+                                android:src="@drawable/add_image">
+
+                            </ImageView>
+                            <androidx.recyclerview.widget.RecyclerView
+                                android:id="@+id/recycler"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent">
+
+                            </androidx.recyclerview.widget.RecyclerView>
+                        </LinearLayout>
+
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+            </androidx.core.widget.NestedScrollView>
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_proceed"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:textAllCaps="true"
+            android:layout_alignParentBottom="true"
+
+            android:layout_gravity="center"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/btnbg"
+            android:fontFamily="@font/nunitosans_bold"
+            android:gravity="center"
+
+            android:text="Submit"
+            android:textColor="@color/white"
+            android:textSize="20dp" />
+    </RelativeLayout>
+
+
+
+
+
+
+
+
+</LinearLayout>

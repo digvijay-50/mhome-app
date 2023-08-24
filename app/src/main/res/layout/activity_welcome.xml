@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/sc">
+
+    <RelativeLayout
+        android:id="@+id/toprl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <TextView
+            android:id="@+id/skiptv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:fontFamily="@font/nunitosans_bold"
+            android:padding="20dp"
+            android:text="Skip"
+            android:textColor="@color/textgrey"
+            android:textSize="14sp" />
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/bottomll"
+        android:layout_below="@+id/toprl">
+
+
+        <androidx.viewpager.widget.ViewPager
+            android:id="@+id/viewpagervp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/indicator" />
+
+        <me.relex.circleindicator.CircleIndicator
+            android:id="@+id/indicator"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_alignParentBottom="true"
+            app:ci_animator="@anim/indicator_animator"
+            app:ci_animator_reverse="@anim/indicator_animator_reverse"
+            app:ci_drawable="@drawable/white_radius_square"
+            app:ci_height="4dp"
+            app:ci_margin="6dp"
+            app:ci_width="10dp" />
+
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/bottomll"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="40dp">
+
+
+        <TextView
+            android:id="@+id/nextbtn"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
+            android:layout_marginBottom="30dp"
+            android:background="@drawable/btnbg"
+            android:fontFamily="@font/nunitosans_bold"
+            android:gravity="center"
+            android:paddingLeft="40dp"
+            android:paddingTop="10dp"
+            android:paddingRight="40dp"
+            android:paddingBottom="10dp"
+            android:text="Next"
+            android:textAllCaps="true"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+
+    <include layout="@layout/nointernetscreen" />
+
+</RelativeLayout>

@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <include layout="@layout/loaderlayout"/>
+
+    <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+        android:id="@+id/swipeToRefresh"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <LinearLayout
+                android:layout_above="@+id/tv_done"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <include layout="@layout/activity_nodatascreen"/>
+
+
+
+                <LinearLayout
+                   android:id="@+id/ll_purchase"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        app:cardCornerRadius="20dp"
+                        android:layout_marginTop="20dp"
+                        app:cardBackgroundColor="@color/primarylight"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginRight="15dp"
+                        android:layout_height="wrap_content">
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+
+
+                            android:orientation="vertical">
+                            <TextView
+                                android:id="@+id/tv_pakname"
+                                android:layout_width="match_parent"
+                                android:layout_height="50dp"
+
+
+                                android:layout_gravity="left"
+
+                                android:background="@drawable/btnbgtopround"
+                                android:fontFamily="@font/nunitosans_bold"
+                                android:gravity="center"
+
+
+                                android:text="Proceed"
+                                android:textColor="@color/white"
+                                android:textSize="18dp" />
+                            <RelativeLayout
+                                android:layout_marginTop="10dp"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal">
+
+                                <TextView
+                                    android:id="@+id/tv_numberpost"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_alignParentLeft="true"
+                                    android:layout_gravity="left"
+
+
+                                    android:layout_marginLeft="15dp"
+
+                                    android:fontFamily="@font/nunitosans_semibold"
+                                    android:gravity="center"
+
+                                    android:text="Proceed"
+                                    android:textColor="@color/black"
+                                    android:textSize="14dp" />
+
+                                <TextView
+                                    android:id="@+id/tv_remaining"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_alignParentRight="true"
+                                    android:layout_gravity="left"
+
+
+                                    android:layout_marginRight="15dp"
+
+
+                                    android:fontFamily="@font/nunitosans_semibold"
+                                    android:gravity="center"
+
+                                    android:text="Proceed"
+                                    android:textColor="@color/black"
+                                    android:textSize="14dp" />
+                            </RelativeLayout>
+
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="10dp"
+                                android:orientation="horizontal">
+
+                                <TextView
+                                    android:id="@+id/tv_sdate"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_alignParentLeft="true"
+                                    android:layout_gravity="left"
+
+
+                                    android:layout_marginLeft="15dp"
+
+                                    android:fontFamily="@font/nunitosans_semibold"
+                                    android:gravity="center"
+
+                                    android:text="Proceed"
+                                    android:textColor="@color/black"
+                                    android:textSize="14dp" />
+
+
+                            </RelativeLayout>
+
+                            <TextView
+                                android:id="@+id/tv_edate"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentLeft="true"
+                                android:layout_gravity="left"
+
+                                android:layout_marginTop="10dp"
+
+
+                                android:layout_marginLeft="15dp"
+
+                                android:fontFamily="@font/nunitosans_semibold"
+                                android:gravity="center"
+
+                                android:text="Proceed"
+                                android:textColor="@color/black"
+                                android:textSize="14dp" />
+
+                            <TextView
+                                android:id="@+id/tv_price"
+                                android:layout_width="match_parent"
+                                android:layout_height="50dp"
+                                android:layout_marginTop="20dp"
+                                android:layout_marginLeft="15dp"
+                                android:layout_marginBottom="20dp"
+
+                                android:layout_marginRight="15dp"
+
+
+
+                                android:layout_gravity="center"
+
+
+                                android:background="@drawable/btnbg"
+                                android:fontFamily="@font/nunitosans_bold"
+                                android:gravity="center"
+
+                                android:text="Proceed"
+                                android:textColor="@color/white"
+                                android:textSize="18dp" />
+
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+                    <TextView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_gravity="left"
+
+
+                        android:layout_marginTop="15dp"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginBottom="10dp"
+
+                        android:fontFamily="@font/nunitosans_bold"
+                        android:gravity="center"
+
+                        android:text="Other Packages"
+                        android:textColor="@color/black"
+                        android:textSize="18dp" />
+
+                </LinearLayout>
+
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/recycler"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                </androidx.recyclerview.widget.RecyclerView>
+            </LinearLayout>
+
+        </androidx.core.widget.NestedScrollView>
+
+    </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+
+
+
+
+</LinearLayout>

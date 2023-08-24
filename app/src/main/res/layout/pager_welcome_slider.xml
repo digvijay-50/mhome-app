@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:gravity="center"
+    android:orientation="vertical">
+
+
+    <ImageView
+        android:id="@+id/imageiv"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:background="@drawable/fullcircle"
+        android:src="@drawable/fullcircle" />
+
+
+    <TextView
+        android:id="@+id/titletv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:fontFamily="@font/nunitosans_bold"
+        android:gravity="center"
+        android:text="Fusce honcus urna"
+        android:textColor="@color/darkgray"
+        android:textSize="22dp" />
+
+    <TextView
+        android:id="@+id/messagetv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="11dp"
+        android:fontFamily="@font/nunitosans_regular"
+        android:gravity="center"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:text="Sed ullamcorper nibh sed metus finibus, nec imperdiet enim pellentesque."
+        android:textColor="@color/textgrey"
+        android:textSize="18dp" />
+
+</LinearLayout>

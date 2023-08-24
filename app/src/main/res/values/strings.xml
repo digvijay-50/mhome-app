@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">mHome</string>
+    <string name="runtime_permission_msg">Please enable all permissions from app settings.</string>
+    <string name="enter_location">Enter Location</string>
+    <string name="auto_complete_text">Autocomplete textview with custom adapter.</string>
+    <string name="error">Google Api key is missing.</string>
+    <string name="api_key">AIzaSyDY_U0BMEIZb4Pm3rU3T7dnxi-fXPfZlqQ</string>
+    <string name="google_map_api">AIzaSyDcehkbT3hwUOy7g3UvKuQSyNfVeg85hFc</string>
+
+    <string name="txt_info">Info</string>
+    <string name="txt_warning">Warning</string>
+    <string name="msg_rationale">Please provide permission so that you can Access App</string>
+    <string-array name="exposed_dropdown_content">
+        <item>Item 1</item>
+        <item>Item 2</item>
+        <item>Item 3</item>
+        <item>Item 4</item>
+    </string-array>
+
+    <array name="slider_values">
+        <item>500000.0</item>
+        <item>1000000.0</item>
+    </array>
+
+
+</resources>

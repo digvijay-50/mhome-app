@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="red">#F44336</color>
+
+    <color name="purple_200">#d7242a</color>
+
+    <color name="textgrey">#1A1A1A</color>
+    <color name="primarylight">#FBE9EA</color>
+    <color name="seccolor">#FFF8E2</color>
+    <color name="seclight">#FF9933</color>
+    <color name="textlightgrey">#807E7E</color>
+    <color name="lightblack">#BE989898</color>
+
+    <color name="disabledgrey">#E3E3E3</color>
+
+    <color name="pending">#2196F3</color>
+    <color name="accepted">#22DF41</color>
+    <color name="rejected">#E91E63</color>
+    <color name="pickup">#A84A02</color>
+    <color name="delivered">#FF9800</color>
+    <color name="pay">#5A3906</color>
+    <color name="cancelled">#FF0000</color>
+
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="bggrey">#FFFFFFFF</color>
+    <color name="sad">#fbe9ea</color>
+    <color name="darkgray">#1A1A1A</color>
+    <color name="stockcolor">#444444</color>
+
+
+    <color name="gray">#807F7F</color>
+    <color name="lightgray">#EEEEEE</color>
+
+</resources>

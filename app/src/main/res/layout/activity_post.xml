@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Activities.SearchpropertyActivity">
+    <include layout="@layout/toolbarlayout"/>
+    <include layout="@layout/loaderlayout"/>
+
+
+    <com.ogaclejapan.smarttablayout.SmartTabLayout
+        android:id="@+id/viewpagertab"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:clipToPadding="false"
+        app:stl_distributeEvenly="true"
+        android:paddingLeft="4dp"
+        android:paddingRight="4dp"
+        android:background="@color/purple_200"
+        app:stl_defaultTabTextColor="@color/white"
+
+        app:stl_dividerColor="@color/white"
+        app:stl_dividerThickness="2dp"
+        app:stl_indicatorWidth="130dp"
+        app:stl_indicatorColor="@color/white"
+        app:stl_indicatorCornerRadius="20dp"
+        app:stl_indicatorInterpolation="smart"
+        app:stl_indicatorGravity="center"
+        app:stl_indicatorThickness="36dp"
+        app:stl_underlineColor="@color/purple_200"
+        app:stl_underlineThickness="0dp" />
+
+
+<!--    <com.ogaclejapan.smarttablayout.SmartTabLayout-->
+<!--        xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--        xmlns:app="http://schemas.android.com/apk/res-auto"-->
+<!--        android:id="@+id/viewpagertab"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="50dp"-->
+<!--        android:clipToPadding="false"-->
+<!--        app:stl_distributeEvenly="true"-->
+<!--        android:paddingLeft="4dp"-->
+<!--        android:paddingRight="4dp"-->
+<!--        android:background="@color/purple_200"-->
+<!--        app:stl_defaultTabTextColor="@color/white"-->
+
+<!--        app:stl_dividerColor="@color/white"-->
+<!--        app:stl_dividerThickness="2dp"-->
+<!--        app:stl_indicatorWidth="130dp"-->
+<!--        app:stl_indicatorColor="@color/white"-->
+<!--        app:stl_indicatorCornerRadius="10dp"-->
+<!--        app:stl_indicatorInterpolation="smart"-->
+<!--        app:stl_indicatorGravity="center"-->
+<!--        app:stl_indicatorThickness="36dp"-->
+<!--        app:stl_underlineColor="@color/purple_200"-->
+<!--        app:stl_underlineThickness="0dp" />-->
+
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+
+</LinearLayout>

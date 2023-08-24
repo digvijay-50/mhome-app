@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/All Projects/mHome/mHome/app/src/main/res/drawable-v24/btnbgprimarystock.xml" value="0.1065" />
+        <entry key="..\:/All Projects/mHome/mHome/app/src/main/res/drawable-v24/btnbgpristock.xml" value="0.1065" />
+        <entry key="..\:/All Projects/mHome/mHome/app/src/main/res/drawable-v24/btnbgseclightstock.xml" value="0.1065" />
+        <entry key="..\:/All Projects/mHome/mHome/app/src/main/res/drawable-v24/btnbgsecstock.xml" value="0.1065" />
+        <entry key="..\:/All Projects/mHome/mHome/app/src/main/res/drawable-v24/btnbgwhite.xml" value="0.2065" />
+        <entry key="..\:/All Projects/mHome/mHome/app/src/main/res/drawable-v24/unitbg.xml" value="0.107" />
+        <entry key="..\:/All Projects/mHome/mHome/app/src/main/res/drawable-v24/unitsecbg.xml" value="0.189" />
+        <entry key="..\:/All Projects/mHome/mHome/app/src/main/res/drawable-v24/whiteline.xml" value="0.168" />
+        <entry key="..\:/All Projects/mHome/mHome/app/src/main/res/drawable/btnbg.xml" value="0.1225" />
+        <entry key="..\:/All Projects/mHome/mHome/app/src/main/res/drawable/btnbglightcolor.xml" value="0.1" />
+        <entry key="..\:/All Projects/mHome/mHome/app/src/main/res/drawable/btnbgprimarystock.xml" value="0.1815" />
+        <entry key="..\:/All Projects/mHome/mHome/app/src/main/res/drawable/btnbgpristock.xml" value="0.1815" />
+        <entry key="..\:/All Projects/mHome/mHome/app/src/main/res/drawable/btnbgseccolor.xml" value="0.106" />
+        <entry key="..\:/All Projects/mHome/mHome/app/src/main/res/drawable/btnbgseclightstock.xml" value="0.1065" />
+        <entry key="..\:/All Projects/mHome/mHome/app/src/main/res/drawable/btnbgsecstock.xml" value="0.1065" />
+        <entry key="..\:/All Projects/mHome/mHome/app/src/main/res/drawable/btnbgselect.xml" value="0.1225" />
+        <entry key="..\:/All Projects/mHome/mHome/app/src/main/res/drawable/btnbgtopround.xml" value="0.1" />
+        <entry key="..\:/All Projects/mHome/mHome/app/src/main/res/drawable/btnbgwhite.xml" value="0.1225" />
+        <entry key="..\:/All Projects/mHome/mHome/app/src/main/res/drawable/btnbgwhitestock.xml" value="0.1065" />
+        <entry key="..\:/All Projects/mHome/mHome/app/src/main/res/drawable/button_selector.xml" value="0.156" />
+        <entry key="..\:/All Projects/mHome/mHome/app/src/main/res/drawable/circleblackbtnbg.xml" value="0.1225" />
+        <entry key="..\:/All Projects/mHome/mHome/app/src/main/res/drawable/disabledwhitebtnbg.xml" value="0.1225" />
+        <entry key="..\:/All Projects/mHome/mHome/app/src/main/res/drawable/etborder.xml" value="0.123" />
+        <entry key="..\:/All Projects/mHome/mHome/app/src/main/res/drawable/ic_launcher_background.xml" value="0.111" />
+        <entry key="..\:/All Projects/mHome/mHome/app/src/main/res/drawable/rounded_dialog.xml" value="0.1" />
+        <entry key="..\:/All Projects/mHome/mHome/app/src/main/res/drawable/roundedwhitebg.xml" value="0.1" />
+        <entry key="..\:/All Projects/mHome/mHome/app/src/main/res/drawable/unitbg.xml" value="0.107" />
+        <entry key="..\:/All Projects/mHome/mHome/app/src/main/res/drawable/unitwhitebg.xml" value="0.189" />
+        <entry key="..\:/All Projects/mHome/mHome/app/src/main/res/drawable/white_radius_square.xml" value="0.1215" />
+        <entry key="..\:/All Projects/mHome/mHome/app/src/main/res/drawable/whitebtnbg.xml" value="0.168" />
+        <entry key="..\:/All Projects/mHome/mHome/app/src/main/res/layout/activity_add_post.xml" value="0.25" />
+        <entry key="..\:/All Projects/mHome/mHome/app/src/main/res/layout/activity_addfourth_post.xml" value="0.25" />
+        <entry key="..\:/All Projects/mHome/mHome/app/src/main/res/layout/activity_addsec_post.xml" value="0.33" />
+        <entry key="..\:/All Projects/mHome/mHome/app/src/main/res/layout/activity_addthird_post.xml" value="0.2622798887859129" />
+        <entry key="..\:/All Projects/mHome/mHome/app/src/main/res/layout/activity_advocatedetail.xml" value="0.14" />
+        <entry key="..\:/All Projects/mHome/mHome/app/src/main/res/layout/activity_advocatelist.xml" value="0.18072916666666666" />
+        <entry key="..\:/All Projects/mHome/mHome/app/src/main/res/layout/activity_bottomfilter2.xml" value="0.18" />
+        <entry key="..\:/All Projects/mHome/mHome/app/src/main/res/layout/activity_change_password.xml" value="0.1" />
+        <entry key="..\:/All Projects/mHome/mHome/app/src/main/res/layout/activity_contactform.xml" value="0.2" />
+        <entry key="..\:/All Projects/mHome/mHome/app/src/main/res/layout/activity_edit_user_profile.xml" value="0.1969111969111969" />
+        <entry key="..\:/All Projects/mHome/mHome/app/src/main/res/layout/activity_force_update_new.xml" value="0.2" />
+        <entry key="..\:/All Projects/mHome/mHome/app/src/main/res/layout/activity_forgot_password.xml" value="0.22" />
+        <entry key="..\:/All Projects/mHome/mHome/app/src/main/res/layout/activity_gallary.xml" value="0.13229166666666667" />
+        <entry key="..\:/All Projects/mHome/mHome/app/src/main/res/layout/activity_home_new.xml" value="0.1" />
+        <entry key="..\:/All Projects/mHome/mHome/app/src/main/res/layout/activity_login.xml" value="0.19947916666666668" />
+        <entry key="..\:/All Projects/mHome/mHome/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/All Projects/mHome/mHome/app/src/main/res/layout/activity_maintainance.xml" value="0.10416666666666667" />
+        <entry key="..\:/All Projects/mHome/mHome/app/src/main/res/layout/activity_mobile_register.xml" value="0.18" />
+        <entry key="..\:/All Projects/mHome/mHome/app/src/main/res/layout/activity_new_password.xml" value="0.18" />
+        <entry key="..\:/All Projects/mHome/mHome/app/src/main/res/layout/activity_nodatascreen.xml" value="0.18072916666666666" />
+        <entry key="..\:/All Projects/mHome/mHome/app/src/main/res/layout/activity_noti.xml" value="0.11145833333333334" />
+        <entry key="..\:/All Projects/mHome/mHome/app/src/main/res/layout/activity_otp.xml" value="0.2" />
+        <entry key="..\:/All Projects/mHome/mHome/app/src/main/res/layout/activity_otp_forgot.xml" value="0.2" />
+        <entry key="..\:/All Projects/mHome/mHome/app/src/main/res/layout/activity_package.xml" value="0.2" />
+        <entry key="..\:/All Projects/mHome/mHome/app/src/main/res/layout/activity_place.xml" value="0.2" />
+        <entry key="..\:/All Projects/mHome/mHome/app/src/main/res/layout/activity_post.xml" value="0.12708333333333333" />
+        <entry key="..\:/All Projects/mHome/mHome/app/src/main/res/layout/activity_postpackagedetail.xml" value="0.2" />
+        <entry key="..\:/All Projects/mHome/mHome/app/src/main/res/layout/activity_propertydetail.xml" value="0.18" />
+        <entry key="..\:/All Projects/mHome/mHome/app/src/main/res/layout/activity_propertylist.xml" value="0.18" />
+        <entry key="..\:/All Projects/mHome/mHome/app/src/main/res/layout/activity_rentshortlist.xml" value="0.22" />
+        <entry key="..\:/All Projects/mHome/mHome/app/src/main/res/layout/activity_searchpropery.xml" value="0.16" />
+        <entry key="..\:/All Projects/mHome/mHome/app/src/main/res/layout/activity_select_address.xml" value="0.33" />
+        <entry key="..\:/All Projects/mHome/mHome/app/src/main/res/layout/activity_sellshortlist.xml" value="0.33" />
+        <entry key="..\:/All Projects/mHome/mHome/app/src/main/res/layout/activity_settings_data.xml" value="0.10416666666666667" />
+        <entry key="..\:/All Projects/mHome/mHome/app/src/main/res/layout/activity_shortlist.xml" value="0.14" />
+        <entry key="..\:/All Projects/mHome/mHome/app/src/main/res/layout/activity_splash.xml" value="0.16" />
+        <entry key="..\:/All Projects/mHome/mHome/app/src/main/res/layout/activity_user_details.xml" value="0.22" />
+        <entry key="..\:/All Projects/mHome/mHome/app/src/main/res/layout/activity_welcome.xml" value="0.25" />
+        <entry key="..\:/All Projects/mHome/mHome/app/src/main/res/layout/dialog_contacts.xml" value="0.18" />
+        <entry key="..\:/All Projects/mHome/mHome/app/src/main/res/layout/dialog_exit_app.xml" value="0.25" />
+        <entry key="..\:/All Projects/mHome/mHome/app/src/main/res/layout/dialog_logout.xml" value="0.25" />
+        <entry key="..\:/All Projects/mHome/mHome/app/src/main/res/layout/dialog_sharedetail_app.xml" value="0.20416666666666666" />
+        <entry key="..\:/All Projects/mHome/mHome/app/src/main/res/layout/fragment_comm.xml" value="0.19947916666666668" />
+        <entry key="..\:/All Projects/mHome/mHome/app/src/main/res/layout/fragment_home.xml" value="0.2" />
+        <entry key="..\:/All Projects/mHome/mHome/app/src/main/res/layout/fragment_profile.xml" value="0.18" />
+        <entry key="..\:/All Projects/mHome/mHome/app/src/main/res/layout/fragment_residental.xml" value="0.33" />
+        <entry key="..\:/All Projects/mHome/mHome/app/src/main/res/layout/fragment_searchcomm.xml" value="0.25" />
+        <entry key="..\:/All Projects/mHome/mHome/app/src/main/res/layout/fragment_searchresidental.xml" value="0.22160148975791433" />
+        <entry key="..\:/All Projects/mHome/mHome/app/src/main/res/layout/image_item.xml" value="0.33" />
+        <entry key="..\:/All Projects/mHome/mHome/app/src/main/res/layout/image_item1.xml" value="0.25" />
+        <entry key="..\:/All Projects/mHome/mHome/app/src/main/res/layout/loaderlayout.xml" value="0.17291666666666666" />
+        <entry key="..\:/All Projects/mHome/mHome/app/src/main/res/layout/main_imageview_activity.xml" value="0.2" />
+        <entry key="..\:/All Projects/mHome/mHome/app/src/main/res/layout/pager_banner_slider.xml" value="0.25" />
+        <entry key="..\:/All Projects/mHome/mHome/app/src/main/res/layout/pager_imageview.xml" value="0.1" />
+        <entry key="..\:/All Projects/mHome/mHome/app/src/main/res/layout/pager_welcome_slider.xml" value="0.10416666666666667" />
+        <entry key="..\:/All Projects/mHome/mHome/app/src/main/res/layout/single_advocate_item.xml" value="0.21" />
+        <entry key="..\:/All Projects/mHome/mHome/app/src/main/res/layout/single_advocate_item1.xml" value="0.22" />
+        <entry key="..\:/All Projects/mHome/mHome/app/src/main/res/layout/single_advrtice_item.xml" value="0.1" />
+        <entry key="..\:/All Projects/mHome/mHome/app/src/main/res/layout/single_city.xml" value="0.25" />
+        <entry key="..\:/All Projects/mHome/mHome/app/src/main/res/layout/single_city1.xml" value="0.33" />
+        <entry key="..\:/All Projects/mHome/mHome/app/src/main/res/layout/single_notification_item.xml" value="0.33" />
+        <entry key="..\:/All Projects/mHome/mHome/app/src/main/res/layout/single_post_property.xml" value="0.33" />
+        <entry key="..\:/All Projects/mHome/mHome/app/src/main/res/layout/single_postpackage_item.xml" value="0.22" />
+        <entry key="..\:/All Projects/mHome/mHome/app/src/main/res/layout/single_postpackage_item1.xml" value="0.2" />
+        <entry key="..\:/All Projects/mHome/mHome/app/src/main/res/layout/single_property_item.xml" value="0.33" />
+        <entry key="..\:/All Projects/mHome/mHome/app/src/main/res/layout/single_spinnerlist.xml" value="0.16342592592592592" />
+        <entry key="..\:/All Projects/mHome/mHome/app/src/main/res/layout/state_dialog.xml" value="0.10208333333333333" />
+        <entry key="..\:/All Projects/mHome/mHome/app/src/main/res/layout/toolbarlayout.xml" value="0.22" />
+        <entry key="..\:/All Projects/mHome/mHome/app/src/main/res/layout/user_row_item.xml" value="0.1" />
+        <entry key="..\:/All Projects/mHome/mHome/app/src/main/res/menu/navigation.xml" value="0.22" />
+        <entry key="..\:/All Projects/mHome/mHome/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1085" />
+        <entry key="..\:/All Projects/mHome/mHome/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.168" />
+        <entry key="..\:/All time Use/Newcode/OTPRegisterLogin/app/src/main/res/drawable/circleblackbtnbg.xml" value="0.17" />
+        <entry key="..\:/All time Use/Newcode/OTPRegisterLogin/app/src/main/res/drawable/navigation_view_colored.xml" value="0.137" />
+        <entry key="..\:/All time Use/Newcode/OTPRegisterLogin/app/src/main/res/drawable/white_radius_square.xml" value="0.137" />
+        <entry key="..\:/All time Use/Newcode/OTPRegisterLogin/app/src/main/res/layout/activity_home_new.xml" value="0.2" />
+        <entry key="..\:/All time Use/Newcode/OTPRegisterLogin/app/src/main/res/layout/activity_login.xml" value="0.19947916666666668" />
+        <entry key="..\:/All time Use/Newcode/OTPRegisterLogin/app/src/main/res/layout/activity_mobile_register.xml" value="0.19947916666666668" />
+        <entry key="..\:/All time Use/Newcode/OTPRegisterLogin/app/src/main/res/layout/activity_nodatascreen.xml" value="0.19947916666666668" />
+        <entry key="..\:/All time Use/Newcode/OTPRegisterLogin/app/src/main/res/layout/activity_noti.xml" value="0.33" />
+        <entry key="..\:/All time Use/Newcode/OTPRegisterLogin/app/src/main/res/layout/activity_otp_forgot.xml" value="0.19947916666666668" />
+        <entry key="..\:/All time Use/Newcode/OTPRegisterLogin/app/src/main/res/layout/fragment_home.xml" value="0.19947916666666668" />
+        <entry key="..\:/All time Use/Newcode/OTPRegisterLogin/app/src/main/res/layout/pager_banner_slider.xml" value="0.19947916666666668" />
+        <entry key="..\:/All time Use/Newcode/OTPRegisterLogin/app/src/main/res/layout/single_notification_item.xml" value="0.19947916666666668" />
+        <entry key="..\:/All time Use/Newcode/OTPRegisterLogin/app/src/main/res/menu/navigation.xml" value="0.19947916666666668" />
+        <entry key="..\:/All time Use/poojacode/OTPRegisterLogin/app/src/main/res/layout/activity_force_update_new.xml" value="0.12" />
+        <entry key="..\:/All time Use/poojacode/OTPRegisterLogin/app/src/main/res/layout/activity_home_new.xml" value="0.18854166666666666" />
+        <entry key="..\:/All time Use/poojacode/OTPRegisterLogin/app/src/main/res/layout/activity_login.xml" value="0.1" />
+        <entry key="..\:/All time Use/poojacode/OTPRegisterLogin/app/src/main/res/layout/activity_maintainance.xml" value="0.11666666666666667" />
+        <entry key="..\:/All time Use/poojacode/OTPRegisterLogin/app/src/main/res/layout/activity_splash.xml" value="0.20416666666666666" />
+        <entry key="..\:/All time Use/poojacode/OTPRegisterLogin/app/src/main/res/layout/activity_user_details.xml" value="0.13125" />
+        <entry key="..\:/All time Use/poojacode/OTPRegisterLogin/app/src/main/res/layout/fragment_home.xml" value="0.25" />
+        <entry key="..\:/All time Use/poojacode/OTPRegisterLogin/app/src/main/res/layout/pager_banner_slider.xml" value="0.171875" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

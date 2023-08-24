@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:id="@+id/card"
+    app:cardBackgroundColor="@color/sad"
+
+    app:cardCornerRadius="20dp">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:padding="5dp">
+
+
+        <TextView
+            android:id="@+id/tv_city"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_toLeftOf="@+id/im_remove"
+            android:fontFamily="@font/nunitosans_semibold"
+            android:gravity="center"
+            android:text="@string/app_name"
+            android:layout_marginLeft="5dp"
+            android:textColor="@color/black"
+            android:textSize="14dp" />
+
+        <ImageView
+            android:id="@+id/im_remove"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+
+
+            android:layout_alignParentRight="true"
+            android:layout_centerInParent="true"
+            android:padding="3dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:src="@drawable/close"></ImageView>
+
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
