@@ -56,7 +56,7 @@
                                         android:layout_height="24dp"
                                         android:layout_centerVertical="true"
                                         android:layout_gravity="center"
-                                        android:layout_marginLeft="25dp"
+                                        android:layout_marginLeft="15dp"
                                         android:src="@drawable/toolbarthreelines"
                                         app:tint="@color/white" />
 
@@ -148,7 +148,6 @@
                                     android:layout_width="match_parent"
                                     android:layout_height="65dp"
                                     android:background="@color/purple_200"
-                                    android:theme="@style/Widget.BottomNavigationView"
                                     app:itemIconTint="@drawable/navigation_view_colored"
                                     app:itemTextColor="@drawable/navigation_view_colored"
                                     app:labelVisibilityMode="labeled"
@@ -395,6 +394,7 @@
                     </LinearLayout>
 
                     <LinearLayout
+                        android:visibility="gone"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:orientation="vertical">
@@ -467,7 +467,7 @@
                                 android:layout_marginLeft="40dp"
                                 android:fontFamily="@font/nunitosans_regular"
                                 android:padding="10dp"
-                                android:text="Reach Us"
+                                android:text="Contact Us"
                                 android:textColor="@color/textgrey"
                                 android:textSize="16sp" />
 

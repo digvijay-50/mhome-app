@@ -25,6 +25,9 @@
         <item name="bottomSheetStyle">@style/CustomBottomSheet</item>
     </style>
 
+    <style name="Theme_AlertDialog" parent="Theme.AppCompat.Dialog.Alert">
+        <!-- Customize your alert dialog theme here -->
+    </style>
     <style name="CustomBottomSheet" parent="Widget.MaterialComponents.BottomSheet">
         <item name="shapeAppearanceOverlay">@style/CustomShapeAppearanceBottomSheetDialog</item>
     </style>

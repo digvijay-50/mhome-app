@@ -6,7 +6,7 @@
     android:layout_height="wrap_content"
     android:background="@drawable/btnbgwhite"
     android:orientation="vertical"
-    android:padding="10dp">
+    android:padding="7dp">
 
 
     <TextView
@@ -14,11 +14,10 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:layout_marginLeft="15dp"
         android:layout_marginTop="20dp"
         android:layout_marginBottom="20dp"
         android:fontFamily="@font/nunitosans_bold"
-        android:text="Reach Us"
+        android:text="Contact Us"
         android:textColor="@color/purple_200"
         android:textSize="20sp" />
 
@@ -29,10 +28,7 @@
         android:layout_margin="5dp"
         android:elevation="10dp"
         app:cardCornerRadius="20dp"
-
-        app:cardBackgroundColor="@color/white"
-
-        >
+        app:cardBackgroundColor="@color/white">
 
 
         <LinearLayout
@@ -55,7 +51,6 @@
                 android:text="-"
                 android:id="@+id/emailtv"
                 android:textColor="@color/textgrey"
-
                 android:textSize="15sp" />
 
 
@@ -88,7 +83,6 @@
             android:layout_height="wrap_content"
             android:gravity="center"
             android:background="@drawable/btnbgwhitestock"
-
             android:orientation="horizontal"
             android:padding="10dp"
             android:weightSum="10">
@@ -103,7 +97,6 @@
                 android:text="-"
                 android:id="@+id/phonetv"
                 android:textColor="@color/textgrey"
-
                 android:textSize="15sp" />
 
 

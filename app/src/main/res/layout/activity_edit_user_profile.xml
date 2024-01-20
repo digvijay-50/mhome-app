@@ -280,8 +280,9 @@
                                 app:tint="@color/black" />
                         </RelativeLayout>
 
-                        <LinearLayout
-                            android:layout_width="match_parent"
+
+                        <RelativeLayout
+                            android:layout_width="wrap_content"
                             android:layout_height="55dp"
 
                             android:layout_gravity="center"
@@ -289,25 +290,29 @@
                             android:layout_marginBottom="1dp"
                             android:background="@drawable/whitebtnbg"
 
-                            android:gravity="center_vertical"
-                            android:orientation="horizontal">
+                            android:elevation="3dp"
+                            android:paddingLeft="5dp"
+                            android:paddingRight="5dp">
 
 
-                            <EditText
-                                android:id="@+id/et_aadhar"
-                                android:layout_width="match_parent"
-                                android:layout_height="wrap_content"
-                                android:layout_marginLeft="15dp"
-                                android:background="#00000000"
-                                android:fontFamily="@font/nunitosans_semibold"
-                                android:hint="Aadharcard Number"
-                                android:inputType="text"
+                            <Spinner
+                                android:id="@+id/spinner_buysell"
+                                android:layout_width="fill_parent"
+                                android:layout_height="match_parent"
+                                android:background="@null"
+                                android:minHeight="0dp"
 
+                                android:textSize="14dp" />
 
-                                android:textColor="@color/textgrey"
-                                android:textColorHint="@color/textlightgrey"
-                                android:textSize="16sp" />
-                        </LinearLayout>
+                            <ImageView
+                                android:layout_width="14dp"
+                                android:layout_height="14dp"
+                                android:layout_alignParentRight="true"
+                                android:layout_centerInParent="true"
+                                android:layout_marginRight="15dp"
+                                android:src="@drawable/dropdown"
+                                app:tint="@color/black" />
+                        </RelativeLayout>
 
                         <LinearLayout
                             android:layout_width="match_parent"
@@ -422,34 +427,7 @@
                                 android:textSize="16sp" />
                         </LinearLayout>
 
-                        <LinearLayout
-                            android:layout_width="match_parent"
-                            android:layout_height="55dp"
 
-                            android:layout_gravity="center"
-                            android:layout_marginTop="15dp"
-                            android:layout_marginBottom="1dp"
-                            android:background="@drawable/whitebtnbg"
-
-                            android:gravity="center_vertical"
-                            android:orientation="horizontal">
-
-
-                            <EditText
-                                android:id="@+id/et_flat"
-                                android:layout_width="match_parent"
-                                android:layout_height="wrap_content"
-                                android:layout_marginLeft="15dp"
-                                android:background="#00000000"
-                                android:fontFamily="@font/nunitosans_semibold"
-                                android:hint="Flat Number"
-                                android:inputType="text"
-
-
-                                android:textColor="@color/textgrey"
-                                android:textColorHint="@color/textlightgrey"
-                                android:textSize="16sp" />
-                        </LinearLayout>
 
 
                     </LinearLayout>

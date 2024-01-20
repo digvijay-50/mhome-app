@@ -2,7 +2,7 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_height="wrap_content"
     android:background="@color/bggrey"
     android:orientation="vertical">
 
@@ -13,7 +13,7 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
             android:orientation="vertical">
 
             <TextView
@@ -68,7 +68,7 @@
                     android:paddingTop="10dp"
                     android:paddingRight="10dp"
                     android:paddingBottom="10dp"
-                    android:text="Sell"
+                    android:text="Buy"
                     android:textColor="@color/black"
                     android:textSize="16dp" />
             </LinearLayout>
@@ -386,7 +386,15 @@
                     android:textColor="@color/black"
                     android:textSize="18dp" />
 
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/recycler_conf"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                </androidx.recyclerview.widget.RecyclerView>
                 <LinearLayout
+                    android:visibility="gone"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="15dp"
@@ -470,6 +478,7 @@
                 </LinearLayout>
 
                 <LinearLayout
+                    android:visibility="gone"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="15dp"
@@ -593,8 +602,13 @@
                     android:text="Furnishing Details"
                     android:textColor="@color/black"
                     android:textSize="18dp" />
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/re_furnishing"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"></androidx.recyclerview.widget.RecyclerView>
 
                 <LinearLayout
+                    android:visibility="gone"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="15dp"
@@ -641,6 +655,7 @@
                 </LinearLayout>
 
                 <LinearLayout
+                    android:visibility="gone"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="15dp"
@@ -776,7 +791,13 @@
                         android:textColor="@color/black"
                         android:textSize="18dp" />
 
+                    <androidx.recyclerview.widget.RecyclerView
+                        android:id="@+id/re_facing"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"></androidx.recyclerview.widget.RecyclerView>
+
                     <LinearLayout
+                        android:visibility="gone"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="15dp"
@@ -822,6 +843,7 @@
                     </LinearLayout>
 
                     <LinearLayout
+                        android:visibility="gone"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="15dp"

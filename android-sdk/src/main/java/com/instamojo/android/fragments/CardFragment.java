@@ -323,9 +323,9 @@ public class CardFragment extends BaseFragment implements View.OnClickListener, 
                             changeEditBoxesState(true);
                             dialog.dismiss();
 
-                            Log.i("onResponse", "runsadas: "+ cardOptions.getSubmissionData().getMerchantID());
-                            Log.i("onResponse", "runsadas1: "+ response.body().getUrl());
-                            Log.i("onResponse", "orederid: "+ cardOptions.getSubmissionData().getOrderID());
+//                            Log.i("onResponse", "runsadas: "+ cardOptions.getSubmissionData().getMerchantID());
+//                            Log.i("onResponse", "runsadas1: "+ response.body().getUrl());
+//                            Log.i("onResponse", "orederid: "+ cardOptions.getSubmissionData().getOrderID());
 
                             final Bundle bundle = new Bundle();
                             bundle.putString(Constants.URL, response.body().getUrl());

@@ -1,115 +1,41 @@
 {
   "project_info": {
-    "project_number": "359558156942",
-    "project_id": "jotss-ffc6f",
-    "storage_bucket": "jotss-ffc6f.appspot.com"
+    "project_number": "72097197722",
+    "project_id": "mhome-8c33e",
+    "storage_bucket": "mhome-8c33e.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:359558156942:android:2a9cabd781a8a98dd9efdf",
+        "mobilesdk_app_id": "1:72097197722:android:78e6f2f2cfdc720f7bf923",
         "android_client_info": {
-          "package_name": "com.example.otpregisterloginhome"
+          "package_name": "com.propertybuysell.mhome"
         }
       },
       "oauth_client": [
         {
-          "client_id": "359558156942-kg13s6gdatgonakgihhev5ht2oabnhu1.apps.googleusercontent.com",
+          "client_id": "72097197722-r5tk91ap17m96t2u1rahb5oiknb8pvba.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
-            "package_name": "com.fooddeliveryapp.dailydrop",
+            "package_name": "com.propertybuysell.mhome",
             "certificate_hash": "c36ab7f37777c933d05cb80840379ec84ecdd5b0"
           }
         },
         {
-          "client_id": "359558156942-u7scp2ai1cuasekekivt7t12nn86q3jt.apps.googleusercontent.com",
+          "client_id": "72097197722-k1j3vshof0t328qa8c7tg4cfr6hrg3jk.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyDm7EYSjTOqnKl4P6BY4JSIf3he6nhjHtY"
+          "current_key": "AIzaSyDqXyR0mdRAtxe3qNQ58YpDDXoYaVBYu6I"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "359558156942-u7scp2ai1cuasekekivt7t12nn86q3jt.apps.googleusercontent.com",
-              "client_type": 3
-            }
-          ]
-        }
-      }
-    },
-    {
-      "client_info": {
-        "mobilesdk_app_id": "1:359558156942:android:56396ceb6fdd0ecfd9efdf",
-        "android_client_info": {
-          "package_name": "com.fooddeliveryapp.dailydrop.boy"
-        }
-      },
-      "oauth_client": [
-        {
-          "client_id": "359558156942-u16kjb3hso6l2bpb43nrjn0qqpd3bf9t.apps.googleusercontent.com",
-          "client_type": 1,
-          "android_info": {
-            "package_name": "com.fooddeliveryapp.dailydrop.boy",
-            "certificate_hash": "c36ab7f37777c933d05cb80840379ec84ecdd5b0"
-          }
-        },
-        {
-          "client_id": "359558156942-u7scp2ai1cuasekekivt7t12nn86q3jt.apps.googleusercontent.com",
-          "client_type": 3
-        }
-      ],
-      "api_key": [
-        {
-          "current_key": "AIzaSyDm7EYSjTOqnKl4P6BY4JSIf3he6nhjHtY"
-        }
-      ],
-      "services": {
-        "appinvite_service": {
-          "other_platform_oauth_client": [
-            {
-              "client_id": "359558156942-u7scp2ai1cuasekekivt7t12nn86q3jt.apps.googleusercontent.com",
-              "client_type": 3
-            }
-          ]
-        }
-      }
-    },
-    {
-      "client_info": {
-        "mobilesdk_app_id": "1:359558156942:android:2234e0e8aacda82cd9efdf",
-        "android_client_info": {
-          "package_name": "com.fooddeliveryapp.dailydrop.vendor"
-        }
-      },
-      "oauth_client": [
-        {
-          "client_id": "359558156942-a4sli9pod4795o029s6pee83suitjb5r.apps.googleusercontent.com",
-          "client_type": 1,
-          "android_info": {
-            "package_name": "com.fooddeliveryapp.dailydrop.vendor",
-            "certificate_hash": "c36ab7f37777c933d05cb80840379ec84ecdd5b0"
-          }
-        },
-        {
-          "client_id": "359558156942-u7scp2ai1cuasekekivt7t12nn86q3jt.apps.googleusercontent.com",
-          "client_type": 3
-        }
-      ],
-      "api_key": [
-        {
-          "current_key": "AIzaSyDm7EYSjTOqnKl4P6BY4JSIf3he6nhjHtY"
-        }
-      ],
-      "services": {
-        "appinvite_service": {
-          "other_platform_oauth_client": [
-            {
-              "client_id": "359558156942-u7scp2ai1cuasekekivt7t12nn86q3jt.apps.googleusercontent.com",
+              "client_id": "72097197722-k1j3vshof0t328qa8c7tg4cfr6hrg3jk.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

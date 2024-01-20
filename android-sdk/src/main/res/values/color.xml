@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <color name="shadow">#46566A65</color>
-    <color name="primary_color">#1B75BB</color>
+    <color name="primary_color">#d7242a</color>
     <color name="primary_color_dark">#757575</color>
     <color name="background">@android:color/white</color>
     <color name="accent_color">@android:color/black</color>

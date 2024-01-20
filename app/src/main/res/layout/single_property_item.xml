@@ -18,14 +18,27 @@
 
         android:layout_height="match_parent">
 
-        <com.makeramen.roundedimageview.RoundedImageView
-            android:id="@+id/im_top"
+        <RelativeLayout
             android:layout_width="match_parent"
-            android:layout_height="180dp"
-            android:scaleType="fitXY"
-            app:riv_corner_radius="20dp">
+            android:layout_height="180dp">
 
-        </com.makeramen.roundedimageview.RoundedImageView>
+            <com.makeramen.roundedimageview.RoundedImageView
+                android:id="@+id/im_top"
+                android:layout_width="match_parent"
+                android:layout_height="180dp"
+                android:scaleType="fitXY"
+                app:riv_corner_radius="20dp">
+            </com.makeramen.roundedimageview.RoundedImageView>
+            <com.makeramen.roundedimageview.RoundedImageView
+                android:id="@+id/im_sold"
+                android:layout_width="match_parent"
+                android:layout_height="180dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/soldout1"
+                app:riv_corner_radius="20dp">
+            </com.makeramen.roundedimageview.RoundedImageView>
+        </RelativeLayout>
+
 
         <ImageView
             android:id="@+id/im_fav"

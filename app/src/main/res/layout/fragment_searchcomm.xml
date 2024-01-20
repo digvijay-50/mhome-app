@@ -68,7 +68,7 @@
                     android:paddingTop="10dp"
                     android:paddingRight="15dp"
                     android:paddingBottom="10dp"
-                    android:text="Sell"
+                    android:text="Buy"
                     android:textColor="@color/black"
                     android:textSize="16dp" />
             </LinearLayout>
@@ -443,7 +443,13 @@
                         android:textColor="@color/black"
                         android:textSize="18dp" />
 
+                    <androidx.recyclerview.widget.RecyclerView
+                        android:id="@+id/re_furnishing"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"></androidx.recyclerview.widget.RecyclerView>
+
                     <LinearLayout
+                        android:visibility="gone"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="15dp"
@@ -490,6 +496,7 @@
                     </LinearLayout>
 
                     <LinearLayout
+                        android:visibility="gone"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="15dp"
@@ -541,7 +548,14 @@
                         android:textColor="@color/black"
                         android:textSize="18dp" />
 
+                    <androidx.recyclerview.widget.RecyclerView
+                        android:id="@+id/re_facing"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"></androidx.recyclerview.widget.RecyclerView>
+
+
                     <LinearLayout
+                        android:visibility="gone"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="15dp"
@@ -587,6 +601,7 @@
                     </LinearLayout>
 
                     <LinearLayout
+                        android:visibility="gone"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="15dp"

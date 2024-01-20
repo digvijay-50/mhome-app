@@ -52,7 +52,7 @@
                     android:layout_marginLeft="15dp"
                     android:src="@drawable/address" />
 
-                <com.example.otpregisterloginhome.placeapi.GoEditText
+                <com.propertybuysell.mhome.placeapi.GoEditText
                     android:id="@+id/pickuplocationet"
                     android:layout_width="match_parent"
                     android:layout_height="50dp"
@@ -92,7 +92,6 @@
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_below="@+id/ll"
             android:visibility="gone"
             android:orientation="vertical">
 

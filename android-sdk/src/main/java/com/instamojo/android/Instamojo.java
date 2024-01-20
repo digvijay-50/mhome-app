@@ -45,6 +45,8 @@ public class Instamojo extends BroadcastReceiver {
                     String transactionID = returnData.getString(Constants.TRANSACTION_ID);
                     String paymentID = returnData.getString(Constants.PAYMENT_ID);
                     String paymentStatus = returnData.getString(Constants.PAYMENT_STATUS);
+
+                    Log.i("initiateSDKPayment", "onReceive: "+orderID+"   "+transactionID+"  "+paymentID+"  "+paymentStatus);
                     mCallback.onInstamojoPaymentComplete(orderID, transactionID, paymentID, paymentStatus);
                     return;
 
@@ -113,7 +115,7 @@ public class Instamojo extends BroadcastReceiver {
     public void initiatePayment(final Activity activity, final String orderID, final InstamojoPaymentCallback callback) {
         mCallback = callback;
 
-        Log.i("onResponse", "initiatePayment: "+Constants.ORDER_ID);
+//        Log.i("onResponse", "initiatePayment: "+Constants.ORDER_ID);
         Intent intent = new Intent(mContext, PaymentDetailsActivity.class);
         intent.putExtra(Constants.ORDER_ID, orderID);
         activity.startActivity(intent);

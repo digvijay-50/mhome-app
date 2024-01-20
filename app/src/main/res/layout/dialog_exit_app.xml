@@ -2,7 +2,8 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:background="@color/white"
+    android:background="@drawable/btnbgwhite"
+    android:layout_margin="10dp"
     android:orientation="vertical"
     android:padding="10dp">
 
@@ -16,7 +17,7 @@
         android:layout_marginBottom="20dp"
         android:fontFamily="@font/nunitosans_bold"
         android:text="Are you sure?"
-        android:textColor="@color/purple_200"
+        android:textColor="@color/black"
         android:textSize="20sp" />
 
     <TextView

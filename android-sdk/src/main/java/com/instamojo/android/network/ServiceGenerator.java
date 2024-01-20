@@ -35,12 +35,12 @@ public class ServiceGenerator {
 
     static {
         initialize(Instamojo.Environment.TEST);
-        Log.d(TAG, "Using base URL: " + Instamojo.Environment.TEST);
+//        Log.d(TAG, "Using base URL: " + Instamojo.Environment.TEST);
     }
 
     public static void initialize(Instamojo.Environment environment) {
         String baseUrl = (environment == Instamojo.Environment.PRODUCTION) ? PRODUCTION_BASE_URL : TEST_BASE_URL;
-        Log.d(TAG, "Using base URL: " + baseUrl);
+//        Log.d(TAG, "Using base URL: " + baseUrl);
         retrofit = builder.baseUrl("https://api.instamojo.com/").build();
 
 

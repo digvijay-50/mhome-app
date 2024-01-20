@@ -9,7 +9,7 @@
     tools:context=".Activities.PostpackagedetailActivity">
 
     <include layout="@layout/toolbarlayout"/>
-    <include layout="@layout/loaderlayout"/>
+
 
 
         <RelativeLayout
@@ -185,6 +185,8 @@
                 android:textAllCaps="true"
                 android:textColor="@color/white"
                 android:textSize="16dp" />
+
+            <include layout="@layout/loaderlayout"/>
         </RelativeLayout>
 
 

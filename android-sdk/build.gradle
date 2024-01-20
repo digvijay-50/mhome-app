@@ -8,12 +8,12 @@ ext {
     gitUrl = 'https://github.com/Instamojo/instamojo-android-sdk.git'
 }
 
-repositories {
-    mavenCentral()
-    maven {
-        url "https://s3-ap-southeast-1.amazonaws.com/godel-release/godel/"
-    }
-}
+//repositories {
+//    mavenCentral()
+//    maven {
+//        url "https://s3-ap-southeast-1.amazonaws.com/godel-release/godel/"
+//    }
+//}
 
 
 android {
@@ -81,7 +81,7 @@ dependencies {
     testImplementation 'pl.pragmatists:JUnitParams:1.1.1'
 }
 
-//apply from: '../install.gradle'
-//apply from: '../nexus-publish.gradle'
-//apply from: '../coverage.gradle'
+apply from: '../install.gradle'
+apply from: '../nexus-publish.gradle'
+apply from: '../coverage.gradle'
 

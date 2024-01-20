@@ -1,5 +1,25 @@
-rootProject.name = "mHome"
+pluginManagement {
+    repositories {
+        google()
+        mavenCentral()
+        gradlePluginPortal()
+//        mavenCentral()
+//        maven {
+//            url "https://s3-ap-southeast-1.amazonaws.com/godel-release/godel/"
+//        }
+    }
+}
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        gradlePluginPortal()
+        mavenCentral()
+        maven {
+//            url  "https://phonepe.mycloudrepo.io/public/repositories/phonepe-intentsdk-snapshots"//test
+            url  "https://phonepe.mycloudrepo.io/public/repositories/phonepe-intentsdk-android"
+
+        }
+    }
+}
 include ':app'
-//include ':app', ':android-sdk'
-//project (':android-sdk').projectDir = new File ('./android-sdk')
-include ':android-sdk'

@@ -118,7 +118,7 @@
                     android:layout_height="wrap_content"
                     android:layout_centerInParent="true"
                     android:layout_marginLeft="15dp"
-                    android:layout_toLeftOf="@+id/ll_sqr"
+                    android:layout_toLeftOf="@+id/ll_sqr1"
                     android:background="#00000000"
                     android:fontFamily="@font/nunitosans_semibold"
                     android:hint="Enter Area"
@@ -133,12 +133,12 @@
 
                     android:background="@color/black"
                     android:layout_centerInParent="true"
-                    android:layout_toLeftOf="@+id/ll_sqr"
+                    android:layout_toLeftOf="@+id/ll_sqr1"
                     android:layout_height="30dp">
 
                 </View>
                 <RelativeLayout
-                    android:id="@+id/ll_sqr"
+                    android:id="@+id/ll_sqr1"
                     android:layout_width="100dp"
                     android:layout_marginRight="5dp"
                     android:layout_height="wrap_content"
@@ -267,7 +267,7 @@
                         android:fontFamily="@font/nunitosans_semibold"
                         android:hint="Price per "
                         android:inputType="numberDecimal"
-                        android:maxLength="5"
+
                         android:singleLine="true"
                         android:text=""
                         android:textColor="@color/textgrey"
